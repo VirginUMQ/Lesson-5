@@ -6,6 +6,8 @@
 * git branch text_formating - добавить ветку "text_formating"
 * git merge text_formating - добавить в текущую сессию ветку "text_formating"
 * git branch -d text_formating - удалить ветку text_formating полностью (если эту ветку добавили в текущую сессию до этого, то изменения в этой сессии останутся)
+* git log --graph - отображение коммитов в другом виде
+* git log --oneline - отображение коммитов в другом
 
 ## Выделение текста
 
