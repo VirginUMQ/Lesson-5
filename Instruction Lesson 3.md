@@ -1,5 +1,12 @@
 # Инструкция для работы с Markdown
 
+## Команды
+
+* git branch - какие ветки существуют и где мы находимся
+* git branch text_formating - добавить ветку "text_formating"
+* git merge text_formating - добавить в текущую сессию ветку "text_formating"
+* git branch -d text_formating - удалить ветку text_formating
+
 ## Выделение текста
 
 Чтобы выделить текст курсивом, нужно обрамить его звездочками (*) или (_). *Вот так*. _Вот так_
