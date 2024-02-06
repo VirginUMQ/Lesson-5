@@ -2,12 +2,33 @@
 
 ## Команды
 
+### Лекция 3: 
+
 * git branch - какие ветки существуют и где мы находимся
 * git branch text_formating - добавить ветку "text_formating"
 * git merge text_formating - добавить в текущую сессию ветку "text_formating"
 * git branch -d text_formating - удалить ветку text_formating полностью (если эту ветку добавили в текущую сессию до этого, то изменения в этой сессии останутся)
 * git log --graph - отображение коммитов в другом виде
 * git log --oneline - отображение коммитов в другом
+
+### Лекция 5:
+
+Загрузить репозиторий в git с gitHub:
+```sh
+git clone (ссылка на репозиторий с gitHub)
+```
+
+Выгрузить репозиторий с git в gitHub (подсказка на сайте):
+```sh
+git remote add origin https://github.com/VirginUMQ/Lesson-5.git
+git branch -M main
+git push -u origin main
+```
+
+Внести изменения в gitHub, которые производились в git:
+```sh
+git push
+``` 
 
 ## Выделение текста
 
